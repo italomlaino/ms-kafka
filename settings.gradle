@@ -1,0 +1,6 @@
+rootProject.name = 'ms-kafka'
+include ':ms-kafka-order'
+include ':ms-kafka-shipping'
+
+project(':ms-kafka-order').projectDir = "$rootDir/ms-kafka-order" as File
+project(':ms-kafka-shipping').projectDir = "$rootDir/ms-kafka-shipping" as File
